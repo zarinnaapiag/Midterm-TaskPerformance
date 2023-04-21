@@ -1,0 +1,48 @@
+<html>
+   <head>
+    <title>Task Performance</title>
+      <script type = "text/javascript">
+         <!--
+            function getValue() {
+               var age = prompt("Enter your age : ", "your name here");
+               
+               if(age == null || age == ""){
+                alert("User cancelled the prompt");
+                return;
+               }
+               else if(age == 25){
+                alert("your age is " + age);
+               }
+               else if(age < 25){
+                alert("Your age is " + age + ", so you are younger than 25");
+               }
+                else if(age > 25){
+                    alert("Your age is " + age + ", so you're older than 25");
+                }
+                else{
+                    alert("Invalid input");
+                }
+               var num = prompt("Enter a number: ", "your name here");
+               if(num < 100){
+                alert("The number you entered is less than 100" );
+               }
+               else if(num > 100){
+                alert("The number you entered is greater than 100");
+               }
+               else{
+                alert("Invalid input");
+               }
+            }
+         //-->  
+      </script>      
+   </head>
+   
+   <body>
+      <p>Click the following button to see the result: </p>      
+      <form>
+         <input type = "button" value = "Click to Enter Age" onclick = "getValue();" />
+         <br>
+         <input type="button" value="Click to Enter a Number" onclick = "getValue();"/>
+      </form>      
+   </body>
+</html>

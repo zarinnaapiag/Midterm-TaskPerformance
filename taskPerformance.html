@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style ="font-family: Cambria;">
+    <script >
+    document.writeln("Numbers from 0-30");
+    document.writeln("<br/>");
+        for(let i=0;i<31;i++){
+            document.write(i+"<br/>");
+        }
+
+    document.writeln("Even Numbers from 0-40");
+    document.writeln("<br/>");
+        for(let i= 0; i < 42; i++){
+            if(i%2 == 0){
+                
+                document.writeln(i + "<br />");
+            }
+        }
+        
+    document.writeln("Number from 40-10, %3")
+    document.writeln("<br/>");
+        for(let i=40;i>=10;i--){
+            if(i%3 == 0){
+                document.write(i + "<br/>");
+            }
+        }
+    </script>
+</body>
+</html>
